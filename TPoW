@@ -1,0 +1,6 @@
+local args = {
+    [1] = "FireStream",
+    [2] = game:GetService("Players").radiojohn10o
+}
+
+game:GetService("ReplicatedStorage").Events.HopeAbilities:FireServer(unpack(args))
